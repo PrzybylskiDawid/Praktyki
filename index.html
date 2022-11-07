@@ -26,7 +26,7 @@
         <h3>Tylko dla najsprytniejszych ludzi</h3>
     </article>
     <section>
-        <form action="" method="POST">
+        <form>
             <label for="imie">Imie:</label><br>
             <input type="text" id="imie" name="imie"><br>
             
@@ -44,9 +44,9 @@
             <label for="kolor">Ulubiony kolor:</label>
             <input type="color" id="kolor" name="kolor"><br>
 
-            <input type="submit" onclick="waliduj()" value="Wyślij">
+            <button type="button" onclick="waliduj()" >Wyślij</button>
         </form>
-        <div id="wynik"></div>
+        <div id="walidacja"></div>
     </section>
     <img src="buttercat.jpg" alt="kot z masłem">
     <footer>
