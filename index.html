@@ -34,18 +34,19 @@
             <input type="text" id="nazwisko" name="nazwisko"><br>
             
             <label for="urodziny">Data Urodzenia:</label><br>
-            <input type="text" id="urodziny" name="urodziny"><br>
+            <input type="text" id="urodziny" name="urodziny" placeholder="dd/mm/rrrr"><br>
             
             <label for="plec">Płeć:</label><br>
             <label><input type="radio" name="plec"> mężczyzna</label><br>
             <label><input type="radio" name="plec"> kobieta</label><br>
             <label><input type="radio" name="plec"> inna</label><br>
 
-            <label for="kolor">Ulubiony kolor:</label><br>
-            <input type="text" id="kolor" name="kolor"><br>
+            <label for="kolor">Ulubiony kolor:</label>
+            <input type="color" id="kolor" name="kolor"><br>
 
-            <button type="submit">Wyślij</button>
+            <input type="submit" onclick="waliduj()" value="Wyślij">
         </form>
+        <div id="wynik"></div>
     </section>
     <img src="buttercat.jpg" alt="kot z masłem">
     <footer>
