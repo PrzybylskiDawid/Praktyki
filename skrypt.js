@@ -1,6 +1,5 @@
 function waliduj(){
 
-    var car;
     var imie = document.getElementById('imie').value;
     var imieregex = /^[A-Z][a-z]+$/;
     var imiewynik = imieregex.test(imie)
