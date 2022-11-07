@@ -1,7 +1,41 @@
 *{
-    
+  font-family:Arial, 'Times New Roman', Times, serif;  
+  margin:5px;
+}
+body{
+    background-color: silver;
+}
+form{
+border:3px solid midnightblue;
+width:fit-content;
+padding:10px;
+}
+a{
+color:green;
+text-decoration: none;
+}
+h2{
+    text-decoration:underline;
+}
+a:hover{
+    text-decoration: underline;
+    color: gold;
 }
 #zdjecie1{
-    border: 2px;
-    border-color: chocolate;
+    border: 10px groove chocolate ;
+    float:right;
+}
+#zdjecie1:hover{
+    border:10px dotted chocolate;
+    float:left;
+}
+#przycisk{
+    background-color: forestgreen;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px;
+}
+#przycisk:hover{
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px violet;
 }
