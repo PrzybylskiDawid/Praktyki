@@ -7,4 +7,8 @@ function waliduj(){
     {
         document.getElementById('wynik').innerHTML = 'poprawnie';
     }
+    else
+    {
+        document.getElementById('wynik').innerHTML = 'skill issue';
+    }
 }
